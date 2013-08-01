@@ -1,0 +1,1 @@
+This application is for basic testing of rails application using rspec and cucumber
