@@ -1,5 +1,9 @@
 Daemon::Application.routes.draw do
 
+  # get "user/index"
+
+  match "user" => 'user#index', via: :get
+
   root to: 'bar#index'
 
   match 'bar' => 'bar#index'

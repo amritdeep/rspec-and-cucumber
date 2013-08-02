@@ -7,3 +7,17 @@ Connecting to database specified by database.yml
   [1m[35m (0.0ms)[0m  rollback transaction
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by UserController#index as HTML
+  Rendered user/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 58ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+Processing by UserController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered user/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 30764ms (Views: 124.1ms | ActiveRecord: 2.8ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
